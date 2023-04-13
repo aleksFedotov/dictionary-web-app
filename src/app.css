@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  body {
+    @apply text-sm sm:text-lg dark:bg-black-300 text-black-200 dark:text-white-100 transition-colors duration-300;
+  }
+}
